@@ -1,0 +1,55 @@
+/* Seleciona todos os elementos e aplica estilo a eles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Estilo para o corpo da página */
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #fdfdfd, #624d92, #4700a5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para o contêiner principal do relógio */
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para os contêineres de cada tempo */
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5,5,5,0.9);   
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+/* Estilo para os números do relógio */
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+
+}
+
+/* Estilo para palavras de tempo */
+.relogio span.tempo {
+    font-size: 20px;
+}
